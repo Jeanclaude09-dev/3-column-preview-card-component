@@ -6,7 +6,10 @@
   margin: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Lexend Deca";
+  src: url(fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+}
 
 @font-face {
   font-family: "Big Shoulders Display";
