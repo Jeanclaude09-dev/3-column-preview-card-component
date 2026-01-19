@@ -7,7 +7,11 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url(fonts/big-shoulders-display/BigShouldersDisplay-Regular.ttf);
+}
 
 :root {
   /* ====== COLOR ====== */
@@ -23,7 +27,7 @@
   /* ====== TYPOGRAPHY ====== */
   --font-size: 15px;
   --font-lexend-deca: "Lexend Deca", cursive;
-  --font-big-shoulders: "Big Shoulders", sans-serif;
+  --font-big-shoulders: "Big Shoulders Display", sans-serif;
 }
 
 main {
@@ -54,6 +58,7 @@ h2 {
   color: var(--gray-100);
   font-weight: 700;
   margin: 24px 0;
+  text-transform: uppercase;
   font-family: var(--font-big-shoulders);
 }
 
@@ -120,7 +125,7 @@ button {
 
 @media (max-width: 475px) {
   main {
-    padding: 48px;
+    padding: 36px;
   }
   section {
     grid-template-columns: 1fr;
