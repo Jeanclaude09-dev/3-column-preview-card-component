@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://jeanclaude09-dev.github.io/3-column-preview-card-component/)
+- [solution URL here](https://your-solution-url.com)
+- [live site URL](https://jeanclaude09-dev.github.io/3-column-preview-card-component/)
 
 ### Built with
 
