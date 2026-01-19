@@ -27,7 +27,7 @@
   /* ====== TYPOGRAPHY ====== */
   --font-size: 15px;
   --font-lexend-deca: "Lexend Deca", cursive;
-  --font-big-shoulders: "Big Shoulders Display", sans-serif;
+  --font-big-shoulders-display: "Big Shoulders Display", sans-serif;
 }
 
 main {
@@ -59,7 +59,7 @@ h2 {
   font-weight: 700;
   margin: 24px 0;
   text-transform: uppercase;
-  font-family: var(--font-big-shoulders);
+  font-family: var(--font-big-shoulders-display);
 }
 
 p {
